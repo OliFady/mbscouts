@@ -1,0 +1,54 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="nav-color">
+  <img class="logo-nav" src="../../../assets/img/church-logo.png" />
+  <img class="logo-nav" src="../../../assets/img/mbs-logo.png" />
+  <a class="navbar-brand" routerLink="/"
+    >مجموعه السيده العذراء والأنبا بيشوي الكشفيه</a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavDropdown"
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto text-white" id="right-nav">
+      <li class="nav-item active text-white">
+        <a class="nav-link" href="https://forms.gle/4cb1ujdA2x7uPDMu9"
+          >انضم لنا
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/work" ariaCurrentWhenActive="page"
+          >منهجنا الكشفي</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/archive">الأرشيف</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          فريقك
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" routerLink="/kashafeen">كشافين</a>
+          <a class="dropdown-item" href="/morshedat">مرشدات</a>
+          <a class="dropdown-item" href="/ashbal">أشبال</a>
+          <a class="dropdown-item" href="/zahrat">زهرات</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+<router-outlet></router-outlet>

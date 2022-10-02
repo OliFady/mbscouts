@@ -1,0 +1,25 @@
+.logo-nav {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 20px;
+}
+#nav-color {
+  background-color: #112d4e;
+  padding-left: 50px;
+}
+
+#right-nav {
+  padding-right: 75px;
+}
+
+.navbar-brand {
+  color: white;
+}
+ul li {
+  color: white !important;
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    padding-right: 0;
+  }
+}
