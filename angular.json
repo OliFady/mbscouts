@@ -15,8 +15,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.js",
+              "replaceDuplicatePlugins": true
+          },
             "outputPath": "dist/mbs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -34,7 +38,8 @@
   "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/popper.js/dist/popper.min.js"
+              "./node_modules/popper.js/dist/popper.min.js",
+              
   ]
           },
           "configurations": {
@@ -47,8 +52,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "4kb",
+                  "maximumError": "8kb"
                 }
               ],
               "fileReplacements": [
@@ -114,6 +119,9 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "postbuild": "gulp compress",
     "lint": "ng lint"
   },
   "private": true,
@@ -33,6 +34,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
+    "@angular-builders/custom-webpack": "^14.0.1",
     "@angular-devkit/build-angular": "^14.2.4",
     "@angular-eslint/builder": "14.1.2",
     "@angular-eslint/eslint-plugin": "14.1.2",
@@ -44,7 +46,12 @@
     "@types/jasmine": "~4.0.0",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
+    "angular-cli-ghpages": "^1.0.3",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^10.0.0",
     "eslint": "^8.23.1",
+    "gulp": "^4.0.2",
+    "gulp-gzip": "^1.4.2",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
