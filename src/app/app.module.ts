@@ -15,6 +15,7 @@ import { KashafeenComponent } from './components/teams/kashafeen/kashafeen.compo
 import { MorshedatComponent } from './components/teams/morshedat/morshedat.component';
 import { AshbalComponent } from './components/teams/ashbal/ashbal.component';
 import { ZahratComponent } from './components/teams/zahrat/zahrat.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ZahratComponent } from './components/teams/zahrat/zahrat.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ScullyLibModule,
     NgbModule
   ],
   providers: [],

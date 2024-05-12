@@ -1,0 +1,11 @@
+identifier: l2w835pde9xcc3u6
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: mbs
+homeFolder: /home/ollie/Codes/scouts/mbscouts
+distFolder: ./dist/mbs
+outDir: /home/ollie/Codes/scouts/mbscouts/dist/static
+handle404: ''
+allowErrorCollect: false

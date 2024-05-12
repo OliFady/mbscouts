@@ -1,0 +1,130 @@
+Folder "./scully" doesn't seem to contain custom pluginsCould not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+(You can skip this, or any future question by using the --noPrompt flag)
+Folder "./scully" doesn't seem to contain custom pluginsCould not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+Folder "./scully" doesn't seem to contain custom pluginsCould not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+Folder "./scully" doesn't seem to contain custom pluginsCould not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+Folder "./scully" doesn't seem to contain custom pluginsCould not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+Could not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+(You can skip this, or any future question by using the --noPrompt flag)
+ The scullySystem plugin "storeRoutes has thrown the below error,
+              while trying to render route "unknown"
+              Scully will exitTypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+
+Could not find project "mbs" in 'angular.json'. Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.mbs.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.mbs.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
