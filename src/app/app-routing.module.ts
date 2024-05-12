@@ -7,15 +7,10 @@ import { KashafeenComponent } from './components/teams/kashafeen/kashafeen.compo
 import { MorshedatComponent } from './components/teams/morshedat/morshedat.component';
 import { TeamsLandingComponent } from './components/teams/teams-landing/teams-landing.component';
 import { ZahratComponent } from './components/teams/zahrat/zahrat.component';
-import { WorkComponent } from './components/work/work.component';
 
 const routes: Routes = [ {
   path: '' ,
   component: HeaderComponent
-},
-{
-  path:'work' ,
-  component: WorkComponent
 },
 {
   path:'archive',

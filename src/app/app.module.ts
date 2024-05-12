@@ -9,7 +9,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { BodyOneComponent } from './components/body-one/body-one.component';
 import { JoinUsComponent } from './components/join-us/join-us.component';
 import { FooterComponent } from './shared/footer/footer.component';
-import { WorkComponent } from './components/work/work.component';
 import { ArchiveComponent } from './components/archive/archive.component';
 import { TeamsLandingComponent } from './components/teams/teams-landing/teams-landing.component';
 import { KashafeenComponent } from './components/teams/kashafeen/kashafeen.component';
@@ -25,7 +24,6 @@ import { ZahratComponent } from './components/teams/zahrat/zahrat.component';
     BodyOneComponent,
     JoinUsComponent,
     FooterComponent,
-    WorkComponent,
     ArchiveComponent,
     TeamsLandingComponent,
     KashafeenComponent,

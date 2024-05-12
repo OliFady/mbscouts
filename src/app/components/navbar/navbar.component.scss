@@ -20,6 +20,10 @@ ul li {
 }
 @media screen and (max-width: 500px) {
   .navbar-brand {
-    padding-right: 0;
+    font-size: 20px;
   }
+  .logo-nav {
+    margin-right: 1rem
+  }
+
 }

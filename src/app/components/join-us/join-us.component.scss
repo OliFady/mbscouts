@@ -9,5 +9,8 @@
   align-items: center;
 }
 
-.form {
+@media (max-width: 768px) {
+  #header {
+    background: green
+  }
 }
