@@ -1,13 +1,10 @@
 $main-green: #79dd09 !default;
 $main-green-rgb-015: #3f72af !default;
-$main-yellow: #bdbb49 !default;
-$main-yellow-rgb-015: #3f72af !default;
 $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
 $main-blue: #0076bd !default;
 $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 
-/* This pen */
 body {
   font-family: "Baloo 2", cursive;
   font-size: 16px;
@@ -33,7 +30,6 @@ a:hover {
   font-size: 2.5rem;
 }
 
-/* Cards */
 .postcard {
   flex-wrap: wrap;
   display: flex;
@@ -295,31 +291,6 @@ a:hover {
   background-image: linear-gradient(30deg, $main-red-rgb-015, transparent 50%);
 }
 
-.postcard .postcard__tagbox .yellow.play:hover {
-  background: $main-yellow;
-  color: black;
-}
-.yellow .postcard__title:hover {
-  color: $main-yellow;
-}
-.yellow .postcard__bar {
-  background-color: $main-yellow;
-}
-.yellow::before {
-  background-image: linear-gradient(
-    -30deg,
-    $main-yellow-rgb-015,
-    transparent 50%
-  );
-}
-.yellow:nth-child(2n)::before {
-  background-image: linear-gradient(
-    30deg,
-    $main-yellow-rgb-015,
-    transparent 50%
-  );
-}
-
 @media screen and (min-width: 769px) {
   .green::before {
     background-image: linear-gradient(
@@ -362,21 +333,6 @@ a:hover {
     background-image: linear-gradient(
       80deg,
       $main-red-rgb-015,
-      transparent 50%
-    );
-  }
-
-  .yellow::before {
-    background-image: linear-gradient(
-      -80deg,
-      $main-yellow-rgb-015,
-      transparent 50%
-    );
-  }
-  .yellow:nth-child(2n)::before {
-    background-image: linear-gradient(
-      80deg,
-      $main-yellow-rgb-015,
       transparent 50%
     );
   }
